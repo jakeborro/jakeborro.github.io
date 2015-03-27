@@ -40,7 +40,7 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("billboard.jpg");
+  background-image: url("img/billboard.jpg");
 }
 section.module.parallax-2 {
   background-image: url("../img/demo/pattern2.png");
