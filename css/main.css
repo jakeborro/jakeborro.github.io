@@ -1,109 +1,6 @@
-
 .container {
   max-width: 960px;
   margin: 0 auto;
-}
-
-/* ============================================================
-HEADER
-============================================================ */
-
-header {
-    width: 100%;
-    height: 150px;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 999;
-    background-color: #767D8A;
-    -webkit-transition: height 0.3s;
-    -moz-transition: height 0.3s;
-    -ms-transition: height 0.3s;
-    -o-transition: height 0.3s;
-    transition: height 0.3s;
-}
-header h1#logo {
-    display: inline-block;
-    height: 150px;
-    line-height: 150px;
-    float: left;
-    font-family: "Oswald", sans-serif;
-    font-size: 60px;
-    color: white;
-    font-weight: 400;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-header nav {
-    display: inline-block;
-    float: right;
-}
-header nav a {
-    line-height: 150px;
-    margin-left: 20px;
-    color: #767D8A;
-    font-weight: 700;
-    font-size: 18px;
-    -webkit-transition: all 0.3s;
-    -moz-transition: all 0.3s;
-    -ms-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
-}
-header nav a:hover {
-    color: white;
-}
-header.smaller {
-    height: 75px;
-}
-header.smaller h1#logo {
-    width: 150px;
-    height: 75px;
-    line-height: 75px;
-    font-size: 30px;
-}
-header.smaller nav a {
-    line-height: 75px;
-}
-
-@media all and (max-width: 660px) {
-    header h1#logo {
-        display: block;
-        float: none;
-        margin: 0 auto;
-        height: 100px;
-        line-height: 100px;
-        text-align: center;
-    }
-    header nav {
-        display: block;
-        float: none;
-        height: 50px;
-        text-align: center;
-        margin: 0 auto;
-    }
-    header nav a {
-        line-height: 50px;
-        margin: 0 10px;
-    }
-    header.smaller {
-        height: 75px;
-    }
-    header.smaller h1#logo {
-        height: 40px;
-        line-height: 40px;
-        font-size: 30px;
-    }
-    header.smaller nav {
-        height: 35px;
-    }
-    header.smaller nav a {
-        line-height: 35px;
-    }
 }
 
 /* ============================================================
@@ -142,10 +39,10 @@ section.module.parallax h1 {
   text-shadow: 0 0 10px white;
 }
 section.module.parallax-1 {
-  background-image: url("https://raw.githubusercontent.com/jakeborro/jakeborro.github.io/master/img/sanfran2.jpg");
+  background-image: url("https://raw.githubusercontent.com/jakeborro/jakeborro.github.io/master/img/wood.png");
 }
 section.module.parallax-2 {
-  background-image: url("https://raw.githubusercontent.com/jakeborro/jakeborro.github.io/master/img/wood.png");
+  background-image: url("https://allthingsnicecanada.files.wordpress.com/2013/06/background11.jpg");
 }
 section.module.parallax-3 {
   background-image: url("https://raw.githubusercontent.com/jakeborro/jakeborro.github.io/master/img/pentagon.png");
@@ -168,5 +65,140 @@ section.module.parallax-3 {
 @media all and (min-width: 960px) {
   section.module.parallax h1 {
     font-size: 160px;
+  }
+}
+
+/* nav styles */
+nav.cmn-tile-nav {
+  display: none;
+}
+nav.cmn-tile-nav.open {
+  display: block;
+}
+nav.cmn-tile-nav ul {
+  list-style: none;
+}
+nav.cmn-tile-nav li {
+  display: block;
+  overflow: hidden;
+  transition: background 0.3s;
+}
+nav.cmn-tile-nav a {
+  display: block;
+  padding: 0px;
+  color: #fff;
+  transition: background 0.3s, transform 0.3s;
+}
+nav.cmn-tile-nav a:hover {
+  transform: translateX(20px);
+}
+
+/* repeat this section for the 8 different colours */
+/* --- BEGIN --- */
+nav.cmn-tile-nav li.colour-1,
+nav.cmn-tile-nav li.colour-1 a {
+  background-color: #28aadc;
+}
+nav.cmn-tile-nav li.colour-1:hover,
+nav.cmn-tile-nav li.colour-1:hover a {
+  background-color: #166888;
+}
+/* --- END --- */
+/* --- BEGIN --- */
+nav.cmn-tile-nav li.colour-2,
+nav.cmn-tile-nav li.colour-2 a {
+  background-color: #28aadc;
+}
+nav.cmn-tile-nav li.colour-2:hover,
+nav.cmn-tile-nav li.colour-2:hover a {
+  background-color: #166888;
+}
+/* --- END --- */
+/* --- BEGIN --- */
+nav.cmn-tile-nav li.colour-3,
+nav.cmn-tile-nav li.colour-3 a {
+  background-color: #28aadc;
+}
+nav.cmn-tile-nav li.colour-3:hover,
+nav.cmn-tile-nav li.colour-3:hover a {
+  background-color: #166888;
+}
+/* --- END --- */
+/* --- BEGIN --- */
+nav.cmn-tile-nav li.colour-4,
+nav.cmn-tile-nav li.colour-4 a {
+  background-color: #28aadc;
+}
+nav.cmn-tile-nav li.colour-4:hover,
+nav.cmn-tile-nav li.colour-4:hover a {
+  background-color: #166888;
+}
+/* --- END --- */
+/* --- BEGIN --- */
+nav.cmn-tile-nav li.colour-5,
+nav.cmn-tile-nav li.colour-5 a {
+  background-color: #28aadc;
+}
+nav.cmn-tile-nav li.colour-5:hover,
+nav.cmn-tile-nav li.colour-5:hover a {
+  background-color: #166888;
+}
+/* --- END --- */
+
+
+/* smoother transitions */
+nav.cmn-tile-nav li,
+nav.cmn-tile-nav a {
+  transform: translate3d(0, 0, 0);
+}
+@media all and (min-width: 480px) {
+  nav.cmn-tile-nav {
+    display: block;
+  }
+  nav.cmn-tile-nav li {
+    width: 20%;
+    float: left;
+  }
+}
+@media all and (min-width: 768px) {
+  nav.cmn-tile-nav li {
+    width: 100%;
+  }
+  nav.cmn-tile-nav a {
+    text-align: center;
+    padding: 20px 20px 20px 20px;
+  }
+  nav.cmn-tile-nav a:hover {
+    transform: translateX(0);
+    transform: translateY(-20px);
+  }
+}
+@media all and (min-width: 1024px) {
+  nav.cmn-tile-nav li {
+    overflow: visible;
+    width: 16%;
+  }
+  nav.cmn-tile-nav a {
+    padding: 50px 20px 20px 20px;
+  }
+  nav.cmn-tile-nav a:hover {
+    transform: translateY(20px);
+  }
+}
+a.nav-toggle {
+  display: block;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #dce6f0;
+  color: #646464;
+  text-align: center;
+}
+a.nav-toggle:hover {
+  background-color: #c8d2dc;
+}
+/* the breakpoint same as above */
+@media all and (min-width: 480px) {
+  a.nav-toggle {
+    display: none;
   }
 }
