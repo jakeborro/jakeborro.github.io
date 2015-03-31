@@ -1,18 +1,18 @@
 (function(){
 
-  var parallax = document.querySelectorAll(".parallax"),
-      speed = 0.5;
+	var parallax = document.querySelectorAll(".parallax"),
+	    speed = 0.5;
 
-  window.onscroll = function(){
-    [].slice.call(parallax).forEach(function(el,i){
+	window.onscroll = function(){
+		[].slice.call(parallax).forEach(function(el,i){
 
-      var windowYOffset = window.pageYOffset,
-          elBackgrounPos = "50% " + (windowYOffset * speed) + "px";
+			  var windowYOffset = window.pageYOffset,
+				elBackgroundPos = "50% " + (windowYOffset * speed) + "px";
 
-      el.style.backgroundPosition = elBackgrounPos;
+			el.style.backgroundPosition = elBackgroundPos;	
 
-    });
-  };
+		});
+	};
 
 })();
 
