@@ -129,7 +129,7 @@ section.module.parallax-1 {
   max-width: 100%;
   height: auto;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   
 
 }
