@@ -128,6 +128,8 @@ section.module.parallax-1 {
   background-image: url("http://i.imgur.com/Yjvllr2.jpg?1");
   max-width: 100%;
   height: auto;
+  background-repeat: no-repeat;
+  background-size: contain;
   
 
 }
