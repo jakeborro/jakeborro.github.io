@@ -126,9 +126,15 @@ section.module.parallax h1 {
 }
 section.module.parallax-1 {
   background-image: url("http://i.imgur.com/Yjvllr2.jpg?1");
+  width: 100%;
+  height: auto;
+
 }
 section.module.parallax-2 {
   background-image: url("http://i.imgur.com/lvZlzHO.jpg?1");
+  width: 100%;
+  height: auto;
+
 }
 section.module.parallax-3 {
   background-image: url("https://allthingsnicecanada.files.wordpress.com/2013/06/background11.jpg");
