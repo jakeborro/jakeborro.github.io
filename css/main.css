@@ -8,7 +8,6 @@ BEGIN HEADER / BODY
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
 
 .header {
-    width: 100%;
     position: fixed;
     z-index: 1000;
     top: 0;
