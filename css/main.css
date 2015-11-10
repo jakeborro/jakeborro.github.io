@@ -134,6 +134,7 @@ section.module.parallax-1 {
 
 }
 section.module.parallax-2 {
+  background-image: url("http://i.imgur.com/lvZlzHO.jpg?1");
   max-width: 100%;
   height: auto;
   background-repeat: no-repeat;
