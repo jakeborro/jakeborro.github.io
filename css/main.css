@@ -5,7 +5,8 @@
 /* ============================================================
 BEGIN HEADER / BODY
 ============================================================ */
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:300);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:300);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:300);
 
 .header {
     position: fixed;
@@ -21,7 +22,7 @@ BEGIN HEADER / BODY
 /* Demo stuff */
 
 body {
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'CMS', 'Droid Sans', Helvetica, Arial, sans-serif;
     font-weight: 300;
     line-height: 1;
     letter-spacing: 0.05em;
