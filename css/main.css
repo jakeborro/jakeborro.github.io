@@ -22,7 +22,7 @@ BEGIN HEADER / BODY
 /* Demo stuff */
 
 body {
-    font-family: 'CMS', 'Droid Sans', Helvetica, Arial, sans-serif;
+    font-family: 'CMS', 'Droid Serif', Helvetica, Arial, serif;
     font-weight: 300;
     line-height: 1;
     letter-spacing: 0.05em;
@@ -81,7 +81,7 @@ h2 {
     font-size: 1em;
     text-transform: uppercase;
     text-align: center;
-    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'CMS', 'Droid Serif', Helvetica, Arial, serif;
 }
 
 /* ============================================================
