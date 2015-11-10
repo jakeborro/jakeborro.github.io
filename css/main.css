@@ -126,7 +126,8 @@ section.module.parallax h1 {
 }
 section.module.parallax-1 {
   background-image: url("http://i.imgur.com/Yjvllr2.jpg?1");
-  background-size: 100% 100%;
+  width: 100%;
+  height: auto;
   
 
 }
