@@ -15,6 +15,7 @@ BEGIN HEADER / BODY
     left: 0;
     height: 85px;
     border: none;
+    width: 100%;
     background-color: #22454C;
     box-shadow: 0px 3px 2px 0px rgba(50, 50, 50, 0.2);
 }
@@ -121,11 +122,10 @@ section.module.parallax h1 {
   line-height: 1;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   text-shadow: 0 0 10px black;
 }
 section.module.parallax-1 {
-  background-image: url("http://i.imgur.com/Yjvllr2.jpg?1");
+  background-image: url("http://i.imgur.com/lvZlzHO.jpg?1");
   max-width: 100%;
   height: auto;
   background-repeat: no-repeat;
@@ -138,10 +138,6 @@ section.module.parallax-2 {
   height: auto;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-section.module.parallax-3 {
-  background-image: url("https://allthingsnicecanada.files.wordpress.com/2013/06/background11.jpg");
 }
 
 @media all and (min-width: 600px) {
@@ -180,4 +176,3 @@ footer {
   text-decoration: none;
   color: #FFFFFF;
   font-size: 20px;
-}
