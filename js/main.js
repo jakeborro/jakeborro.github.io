@@ -60,5 +60,3 @@
     });
 
 }(document, window, 0));
-
-
