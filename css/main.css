@@ -111,6 +111,8 @@ section.module p:last-child {
 }
 section.module.content {
   padding: 40px 0;
+  align: center;
+  text-align: center;
 }
 section.module.parallax {
   padding: 240px 0;
